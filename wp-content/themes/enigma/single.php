@@ -10,8 +10,7 @@ get_template_part('breadcrums'); ?>
 		else : 
 		get_template_part('nocontent');
 		endif;
-		weblizar_navigation_posts();
-		comments_template( '', true ); ?>
+		weblizar_navigation_posts(); ?>
 	</div>
 	<?php get_sidebar(); ?>	
 	</div> <!-- row div end here -->	
