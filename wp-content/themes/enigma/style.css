@@ -2456,8 +2456,14 @@ padding-top: 20px;
 	text-align: center;
 }
 
+.table-carbo {
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	width: 23%;
+}
+
 .table-carbo table {
-	width: 22%;
+	width: 100%;
 }
 
 .table-carbo table thead th {
