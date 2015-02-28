@@ -2470,15 +2470,15 @@ padding-top: 20px;
 	color: white;
 }
 
-.table-carbo table > tr {
+.table-carbo table tbody > tr {
 	font-weight: bold;
 	color: white;
 }
 
-.table-carbo table tr:nth-child(even) {
+.table-carbo table tbody > tr:nth-child(even) {
 	background-color: #FFCC33;
 }
 
-.table-carbo table tr:nth-child(odd) {
+.table-carbo table tbody > tr:nth-child(odd) {
 	background-color: #db9c33;
 }
