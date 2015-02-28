@@ -139,14 +139,7 @@
 		add_theme_support( 'automatic-feed-links'); 
 		require( WL_TEMPLATE_DIR . '/options-reset.php'); //Reset Theme Options Here				
 	}
-	if ( ! function_exists( 'wl_title' ) ) :
-	function wl_title() {
-?>
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<?php
-	}
-	add_action( 'wp_head', 'wl_title' );
-endif;
+	
 
 	// Read more tag to formatting in blog page 
 	function weblizar_content_more($more)
@@ -183,8 +176,8 @@ endif;
 			'description' => __( 'footer widget area', 'weblizar' ),
 			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
 			'after_widget' => '</div>',
-			'before_title' => '<h3 class="enigma_footer_widget_title">',
-			'after_title' => '<div id="" class="enigma-footer-separator"></div></h3>',
+			'before_title' => '<div class="enigma_footer_widget_title">',
+			'after_title' => '<div class="enigma-footer-separator"></div></div>',
 		) );             
 	}
 	
@@ -228,6 +221,7 @@ endif;
             //echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
             echo $before . get_the_title() . $after;
         }
+		
     } elseif (!is_single() && !is_page() && get_post_type() != 'post') {
         $post_type = get_post_type_object(get_post_type());
         echo $before . $post_type->labels->singular_name . $after;
@@ -253,15 +247,16 @@ endif;
             echo $crumb . ' ' . $delimiter . ' ';
         echo $before . get_the_title() . $after;
     } elseif (is_search()) {
-        echo $before . '_e("Search results for","weblizar") "' . get_search_query() . '"' . $after;
-    } elseif (is_tag()) {
-        echo $before . '_e("Posts tagged","weblizar") "' . single_tag_title('', false) . '"' . $after;
+        echo $before . _e("Search results for","weblizar")  . get_search_query() . '"' . $after;
+
+    } elseif (is_tag()) {        
+		echo $before . _e('Tag','weblizar') . single_tag_title('', false) . $after;
     } elseif (is_author()) {
         global $author;
         $userdata = get_userdata($author);
-        echo $before . '_e("Articles posted by","weblizar") ' . $userdata->display_name . $after;
+        echo $before . _e("Articles posted by","weblizar") . $userdata->display_name . $after;
     } elseif (is_404()) {
-        echo $before . '_e("Error 404","weblizar")' . $after;
+        echo $before . _e("Error 404","weblizar") . $after;
     }
     
     echo '</ul>';

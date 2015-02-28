@@ -1,12 +1,12 @@
 <?php function weblizar_scripts()
-        {       wp_enqueue_style( 'enigma-style', get_stylesheet_uri() );
+        {      
                 wp_enqueue_style('bootstrap', WL_TEMPLATE_DIR_URI .'/css/bootstrap.css');
                 wp_enqueue_style('default', WL_TEMPLATE_DIR_URI . '/css/default.css');
                 wp_enqueue_style('enigma-theme', WL_TEMPLATE_DIR_URI . '/css/enigma-theme.css');
                 wp_enqueue_style('media-responsive', WL_TEMPLATE_DIR_URI . '/css/media-responsive.css');
                 wp_enqueue_style('animations', WL_TEMPLATE_DIR_URI . '/css/animations.css');
                 wp_enqueue_style('theme-animtae', WL_TEMPLATE_DIR_URI . '/css/theme-animtae.css');
-                wp_enqueue_style('font-awesome', WL_TEMPLATE_DIR_URI . '/css/font-awesome-4.2.0/css/font-awesome.min.css');              
+                wp_enqueue_style('font-awesome', WL_TEMPLATE_DIR_URI . '/css/font-awesome-4.3.0/css/font-awesome.css');              
                 wp_enqueue_style('OpenSansRegular','//fonts.googleapis.com/css?family=Open+Sans');
                 wp_enqueue_style('OpenSansBold','//fonts.googleapis.com/css?family=Open+Sans:700');
                 wp_enqueue_style('OpenSansSemiBold','//fonts.googleapis.com/css?family=Open+Sans:600');

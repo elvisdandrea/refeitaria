@@ -12,25 +12,20 @@
 			$args = array(
 			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
 			'after_widget'  => '</div>',
-			'before_title'  => '<h3 class="enigma_footer_widget_title">',
-			'after_title'   => '<div id="" class="enigma-footer-separator"></div></h3>' );
+			'before_title'  => '<div class="enigma_footer_widget_title">',
+			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
 			the_widget('WP_Widget_Pages', null, $args);			
 			} ?>
 		</div>		
-	</div>
-	
-	
+	</div>	
 </div>
-
 <div class="enigma_footer_area">
 		<div class="container">
 			<div class="col-md-12">
-			<p class="enigma_footer_copyright_info">
+			<p class="enigma_footer_copyright_info wl_rtl" >
 			<?php if($wl_theme_options['footer_customizations']) { echo esc_attr($wl_theme_options['footer_customizations']); }
 			if($wl_theme_options['developed_by_text']) { echo "|" .esc_attr($wl_theme_options['developed_by_text']); } ?>
 			<a target="_blank" rel="nofollow" href="<?php if($wl_theme_options['developed_by_link']) { echo esc_url($wl_theme_options['developed_by_link']); } ?>"><?php if($wl_theme_options['developed_by_weblizar_text']) { echo esc_attr($wl_theme_options['developed_by_weblizar_text']); } ?></a></p>
-			
-			
 			<?php if($wl_theme_options['footer_section_social_media_enbled'] == 'on') { ?>
 			<div class="enigma_footer_social_div">
 				<ul class="social">
@@ -49,17 +44,17 @@
 	                <?php } ?>
 				</ul>
 			</div>
-			<?php } ?>
+			<?php } ?>			
 			</div>		
 		</div>		
-		<?php if($wl_theme_options['custom_css']) ?>
-		<style type="text/css">
-			<?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
-		</style>
 </div>	
 <!-- /Footer Widget Secton -->
 </div>
 <a href="#" title="Go Top" class="enigma_scrollup" style="display: inline;"><i class="fa fa-chevron-up"></i></a>
+<?php if($wl_theme_options['custom_css']) ?>
+<style type="text/css">
+<?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
+</style>
 <?php wp_footer(); ?>
 </body>
 </html>

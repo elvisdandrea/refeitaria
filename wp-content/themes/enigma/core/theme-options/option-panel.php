@@ -22,7 +22,7 @@ function weblizar_admin_enqueue_script() {
 	wp_enqueue_style('weblizar-option-style', WL_TEMPLATE_DIR_URI .'/core/theme-options/css/weblizar-option-style.css');
 	wp_enqueue_style('op-bootstrap', WL_TEMPLATE_DIR_URI .'/core/theme-options/css/bootstrap.css');
 	wp_enqueue_style('weblizar-bootstrap-responsive', WL_TEMPLATE_DIR_URI .'/core/theme-options/css/bootstrap-responsive.css');
-	wp_enqueue_style('font-awesome-op', WL_TEMPLATE_DIR_URI . '/css/font-awesome-4.2.0/css/font-awesome.min.css');
+	wp_enqueue_style('font-awesome-op', WL_TEMPLATE_DIR_URI . '/css/font-awesome-4.3.0/css/font-awesome.css');
 	wp_enqueue_style('Respo-pricing-table', WL_TEMPLATE_DIR_URI .'/core/theme-options/css/pricing-table-responsive.css');
 	wp_enqueue_style('pricing-table', WL_TEMPLATE_DIR_URI .'/core/theme-options/css/pricing-table.css');
 }

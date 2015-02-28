@@ -10,23 +10,33 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>" charset="<?php bloginfo('charset'); ?>" />	
+    <meta charset="<?php bloginfo('charset'); ?>" />	
 	<?php $wl_theme_options = weblizar_get_options(); ?>
 	<?php if($wl_theme_options['upload_image_favicon']!=''){ ?>
-	<link rel="shortcut icon" href="<?php  echo $wl_theme_options['upload_image_favicon']; ?>" /> 
-	<?php } ?>	
-	<?php wp_head(); ?>
+	<link rel="shortcut icon" href="<?php  echo esc_url($wl_theme_options['upload_image_favicon']); ?>" /> 
+	<?php } ?>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+	<?php 
+	if ( ! function_exists( 'wl_title' ) ) :
+	function wl_title() {
+?>
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<?php
+	}
+	add_action( 'wp_head', 'wl_title' );
+endif;
+	wp_head(); ?>
 </head>
-<body <?php body_class(); ?> id="">
+<body <?php body_class(); ?>>
 <div>
 	<!-- Header Section -->
 	<div class="header_section" >
 		<div class="container" >
 			<!-- Logo & Contact Info -->
 			<div class="row ">
-				<div class="col-md-6 col-sm-12">					
+				<div class="col-md-6 col-sm-12 wl_rtl" >					
 					<div claSS="logo">						
-					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<a href="<?php echo esc_url(home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php 
 					if($wl_theme_options['text_title'] =="on")
 					{ echo get_bloginfo('name'); }
@@ -76,7 +86,7 @@
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 					 
-					  <span class="sr-only">Toggle navigation</span>
+					  <span class="sr-only"><?php _e('Toggle navigation','weblizar');?></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>

@@ -1,6 +1,7 @@
 <div class="enigma_blog_area ">
 <?php $wl_theme_options = weblizar_get_options();
 if($wl_theme_options['blog_title'] !='') { ?>
+	<?php /*
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -9,8 +10,9 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> */?>
 	<?php } ?>
+	<?php /*
 	<div class="container">	
 	<div class="row" id="enigma_blog_section">
 	<?php 	if ( have_posts()) : 			
@@ -70,12 +72,12 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				</div>
 				<h2><a href="#"><?php _e('NO Post','weblizar'); ?></a></h2>
 				
-				<p class="enigma_tags">
+				<div class="enigma_tags">
 					<?php _e('Tags :&nbsp;','weblizar'); ?>
 					<a href="#"><?php _e('Bootstrap','weblizar'); ?></a>
 					<a href="#"><?php _e('HTML5','weblizar'); ?></a>
 				   
-				</p>
+				</div>
 				<p><?php _e('Add You Post To show post here..','weblizar'); ?></p>
 				<a href="#" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Read More','weblizar'); ?></a>
 				<div class="enigma_blog_thumb_footer">
@@ -91,11 +93,14 @@ if($wl_theme_options['blog_title'] !='') { ?>
 		
 	</div>
 	<div class="enigma_carousel-navi">
-				<div id="port-prev" class="enigma_carousel-prev" ><i class="fa fa-arrow-left"></i></div>
-				<div id="port-next" class="enigma_carousel-next" ><i class="fa fa-arrow-right"></i></div>
+				<div id="port-next" class="enigma_carousel-prev" ><i class="fa fa-arrow-left"></i></div>
+				<div id="port-prev" class="enigma_carousel-next" ><i class="fa fa-arrow-right"></i></div>
 	</div>
 	</div>
+	*/ ?>
 </div>
+<?php 
+/*
 <div class="enigma_callout_area">
 	<div class="container">
 		<div class="row">
@@ -114,3 +119,4 @@ if($wl_theme_options['blog_title'] !='') { ?>
 	</div>
 	<div class="enigma_callout_shadow"></div>
 </div>
+*/?>

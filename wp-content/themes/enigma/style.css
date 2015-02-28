@@ -1984,7 +1984,7 @@ margin-bottom: 20px;
 
 
 .enigma_footer_widget_area{
-	background: #34495e;
+	background: #CC0000;
 }
 
 .enigma-footer-separator{
@@ -2412,3 +2412,7 @@ padding-top: 20px;
     width: 50%;
 }
 .navigation_en{padding-bottom:5%;}
+
+.view-left{
+    background-color: #686868;
+}

@@ -5,9 +5,19 @@ Consider weblizar PRE-Fix for function-name and as a slug of the Theme Enigma.
 Enigma
 
 CHANGE-LOG:
+@Version: 1.8.3[12/02/2015]
+
+1. RTL Support.
+2. Breadcrumb Fix.
+3. HTML W3C Validated.
+
+
+@Version: 1.8.2[05/02/2015]
+1. Custom Static Front-Page on Page.
+
+
 @Version: 1.8[24/01/2015]
 1. Custom Static Front-Page.
-2.
 
 
 @Version: 1.7.2[21/01/2015]
@@ -129,10 +139,10 @@ Enigma_Theme_Script | V 1.0 | weblizar
 Theme-Footer-Script | V 1.0 | weblizar 
 (c) 2014  | Licensed under the MIT license and GPL license.
 /*****BUNDELED CSS***/
-Font Awesome CSS |  v3.2.1 | 
-Copyright 2014  Dave Gandy.,
+Font Awesome CSS |  v4.3.0 | 
+Copyright 2015  Dave Gandy.,
 Licensed under MIT license :http://opensource.org/licenses/MIT
-Source:http://fortawesome.github.io/Font-Awesome/assets/font-awesome-3.2.1.zip
+Source:http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.3.0.zip
 
 Bootstrap CSS |  v3.1.1 | 
 Copyright 2011-2014 Twitter, Inc

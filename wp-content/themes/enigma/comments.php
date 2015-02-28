@@ -1,5 +1,5 @@
 <?php if ( post_password_required() ) : ?>
-	<?php _e( 'This post is password protected. Enter the password to view any comments.', 'weblizar' ); ?></p>
+	<p><?php _e( 'This post is password protected. Enter the password to view any comments.', 'weblizar' ); ?></p>
 	<?php return; endif; ?>
     <?php if ( have_comments() ) : ?>
 	<div class="enigma_comment_section">		

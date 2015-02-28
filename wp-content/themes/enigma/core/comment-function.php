@@ -4,6 +4,8 @@ if ( ! function_exists( 'weblizar_comment' ) ) :
 function weblizar_comment( $comment, $args, $depth ) 
 {
 	$GLOBALS['comment'] = $comment;
+	//get theme data
+	global $comment_data;
 	//translations
 	$leave_reply = $comment_data['translation_reply_to_coment'] ? $comment_data['translation_reply_to_coment'] : 
 	__('Reply','weblizar'); ?>
