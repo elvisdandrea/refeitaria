@@ -2544,4 +2544,5 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	display: inline-block;
 	margin: 0 0.4em 0 0;
 	width: 23%;
+	vertical-align: text-top;
 }
