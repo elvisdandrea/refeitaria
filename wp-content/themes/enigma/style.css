@@ -2455,3 +2455,30 @@ padding-top: 20px;
 	margin-bottom: 2em;
 	text-align: center;
 }
+
+.table-carbo table {
+	width: 22%;
+}
+
+.table-carbo table > thead col:first-child {
+	background-color: #777;
+	color: white;
+}
+
+.table-carbo table > thead col:nth-child(n+3) {
+	background-color: #CCC;
+	color: white;
+}
+
+.table-carbo table > tr {
+	font-weight: bold;
+	color: white;
+}
+
+.table-carbo table > tr:nth-child(even) {
+	background-color: #FFCC33;
+}
+
+.table-carbo table > tr:nth-child(odd) {
+	background-color: #db9c33;
+}
