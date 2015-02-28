@@ -2460,12 +2460,12 @@ padding-top: 20px;
 	width: 22%;
 }
 
-.table-carbo table > thead col:first-child {
+.table-carbo table thead col:first-child {
 	background-color: #777;
 	color: white;
 }
 
-.table-carbo table > thead col:nth-child(n+3) {
+.table-carbo table thead col:nth-child(n+3) {
 	background-color: #CCC;
 	color: white;
 }
@@ -2475,10 +2475,10 @@ padding-top: 20px;
 	color: white;
 }
 
-.table-carbo table > tr:nth-child(even) {
+.table-carbo table tr:nth-child(even) {
 	background-color: #FFCC33;
 }
 
-.table-carbo table > tr:nth-child(odd) {
+.table-carbo table tr:nth-child(odd) {
 	background-color: #db9c33;
 }
