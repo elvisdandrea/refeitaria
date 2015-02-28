@@ -2419,16 +2419,18 @@ padding-top: 20px;
 	width: 100%;
 }
 
-.view-left {
+.table-view-content {
+	background-color: inherit;
+	border-radius: 15px;
 	display: inline-block;
-	float: left;
-	width: 50%;
+	padding: 2.8em;
+	width: 45%;
 }
 
-.view-right {
-	background-color: #686868;
-	display: inline-block;
-	float: right;
-	width: 50%;
+.table-view-left {
+	float: left;
+}
 
+.table-view-right {
+	float: right;
 }
