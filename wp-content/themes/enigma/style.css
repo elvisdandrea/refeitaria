@@ -2550,7 +2550,8 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 }
 
 .fitness-header {
-	width: 100%;
+	margin-left: auto;
+	width: 64%;
 	background-color: rgba(51, 44, 44, 0.7);
 }
 
