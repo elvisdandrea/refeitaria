@@ -29,16 +29,16 @@
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #DFDFDF;
+	background-color: #cc0000;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #DFDFDF;
+	background-color: #cc0000;
 }
 
 .dropdown-menu {
-	background-color: rgba(49, 162, 221, 0.9);
+	background-color: rgba(229, 32, 32, 0.8);
 }
 /** headings titles css ***/
 .enigma_heading_title h3 {
