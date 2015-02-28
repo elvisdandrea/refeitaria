@@ -2415,12 +2415,12 @@ padding-top: 20px;
 
 
 .table-view {
-	background-color: #686868;
+
 	width: 100%;
 }
 
 .table-view-content {
-	background-color: inherit;
+	background-color: #686868;
 	border-radius: 15px;
 	display: inline-block;
 	padding: 2.8em;
@@ -2433,4 +2433,25 @@ padding-top: 20px;
 
 .table-view-right {
 	float: right;
+}
+
+.table-view-content > p {
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 1.2em;
+	text-align: center;
+}
+
+.table-view-content > ul > li {
+	color: white;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+.table-view > p {
+	font-size: 2em;
+	line-height: 40px;
+	margin-bottom: 2em;
+	text-align: center;
 }
