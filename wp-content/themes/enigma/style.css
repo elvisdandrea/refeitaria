@@ -2412,3 +2412,22 @@ padding-top: 20px;
     width: 50%;
 }
 .navigation_en{padding-bottom:5%;}
+
+
+.table-view {
+	background-color: #686868;
+	width: 100%;
+}
+
+.view-left {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.view-right {
+	background-color: #686868;
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
