@@ -2480,7 +2480,7 @@ padding-top: 20px;
 
 
 .table-carbo table thead th:nth-child(even),
-.table-prottable thead th:nth-child(even),
+.table-prot table thead th:nth-child(even),
 .table-vegetais table thead th:nth-child(even),
 .table-combinado table thead th:nth-child(even) {
 	background-color: #ccc;
