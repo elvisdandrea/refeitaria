@@ -2460,6 +2460,8 @@ padding-top: 20px;
 .table-prot table,
 .table-vegetais table,
 .table-combinado table {
+	border-collapse: separate;
+	border-spacing: 2px;
 	width: 100%;
 }
 
