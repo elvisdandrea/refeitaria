@@ -2456,12 +2456,6 @@ padding-top: 20px;
 	text-align: center;
 }
 
-div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
-	display: inline-block;
-	margin: 0 0.4em 0 0;
-	width: 23%;
-}
-
 .table-carbo, .table-prot, .table-vegetais, .table-combinado table {
 	width: 100%;
 }
@@ -2499,10 +2493,16 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 
 /** Protein ------------------- */
 
-.table-carbo table tbody > tr:nth-child(even) {
+.table-prot table tbody > tr:nth-child(even) {
 	background-color: #CC0000;
 }
 
-.table-carbo table tbody > tr:nth-child(odd) {
+.table-prot table tbody > tr:nth-child(odd) {
 	background-color: #CC3300;
+}
+
+div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	width: 23%;
 }
