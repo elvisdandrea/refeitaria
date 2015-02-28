@@ -2501,6 +2501,27 @@ padding-top: 20px;
 	background-color: #CC3300;
 }
 
+/** Vegetais ---------------------- */
+.table-vegetais table tbody > tr:nth-child(even) {
+	background-color: #009933;
+}
+
+.table-vegetais table tbody > tr:nth-child(odd) {
+	background-color: #003300;
+}
+
+/** Combinado ---------------------- */
+
+.table-combinado table tbody > tr:nth-child(even) {
+	background-color: #006699;
+}
+
+.table-combinado table tbody > tr:nth-child(odd) {
+	background-color: #000099;
+}
+
+
+
 div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	display: inline-block;
 	margin: 0 0.4em 0 0;
