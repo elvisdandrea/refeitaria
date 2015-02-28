@@ -2460,14 +2460,16 @@ padding-top: 20px;
 	width: 22%;
 }
 
-.table-carbo table thead col:first-child {
-	background-color: #777;
+.table-carbo table thead th {
 	color: white;
 }
 
-.table-carbo table thead col:nth-child(n+3) {
-	background-color: #CCC;
-	color: white;
+.table-carbo table thead th:nth-child(even) {
+	background-color: #ccc;
+}
+
+.table-carbo table thead th:nth-child(odd) {
+	background-color: #777;
 }
 
 .table-carbo table tbody > tr {
