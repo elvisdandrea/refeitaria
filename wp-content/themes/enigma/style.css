@@ -2456,32 +2456,36 @@ padding-top: 20px;
 	text-align: center;
 }
 
-.table-carbo, div.table-carbo {
+.table-carbo, .table-prot, .table-vegetais, .table-combinado {
 	display: inline-block;
 	margin: 0 0.4em 0 0;
 	width: 23%;
 }
 
-.table-carbo table {
+.table-carbo, .table-prot, .table-vegetais, .table-combinado table {
 	width: 100%;
 }
 
-.table-carbo table thead th {
+.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th {
 	color: white;
 }
 
-.table-carbo table thead th:nth-child(even) {
-	background-color: #ccc;
-}
-
-.table-carbo table thead th:nth-child(odd) {
-	background-color: #777;
-}
-
-.table-carbo table tbody > tr {
+.table-carbo, .table-prot, .table-vegetais, .table-combinado table tbody > tr {
 	font-weight: bold;
 	color: white;
 }
+
+
+.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th:nth-child(even) {
+	background-color: #ccc;
+}
+
+.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th:nth-child(odd) {
+	background-color: #777;
+}
+
+
+/** Carbo -------------------- */
 
 .table-carbo table tbody > tr:nth-child(even) {
 	background-color: #FFCC33;
@@ -2489,4 +2493,16 @@ padding-top: 20px;
 
 .table-carbo table tbody > tr:nth-child(odd) {
 	background-color: #db9c33;
+}
+
+
+
+/** Protein ------------------- */
+
+.table-carbo table tbody > tr:nth-child(even) {
+	background-color: #CC0000;
+}
+
+.table-carbo table tbody > tr:nth-child(odd) {
+	background-color: #CC3300;
 }
