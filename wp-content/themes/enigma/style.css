@@ -2548,3 +2548,14 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	width: 23%;
 	vertical-align: text-top;
 }
+
+.fitness-header {
+	width: 100%;
+	background-color: rgba(51, 44, 44, 0.7);
+}
+
+.fitness-header h3,
+.fitness-header p {
+	color: white;
+	text-align: center;
+}
