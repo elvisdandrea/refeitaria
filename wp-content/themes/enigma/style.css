@@ -2456,25 +2456,40 @@ padding-top: 20px;
 	text-align: center;
 }
 
-.table-carbo, .table-prot, .table-vegetais, .table-combinado table {
+.table-carbo table,
+.table-prot table,
+.table-vegetais table,
+.table-combinado table {
 	width: 100%;
 }
 
-.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th {
+.table-carbo table thead th,
+.table-prot table thead th,
+.table-vegetais table thead th,
+.table-combinado table thead th {
 	color: white;
 }
 
-.table-carbo, .table-prot, .table-vegetais, .table-combinado table tbody > tr {
+.table-carbo table tbody > tr,
+.table-prot table tbody > tr,
+.table-vegetais table tbody > tr,
+.table-combinado table tbody > tr {
 	font-weight: bold;
 	color: white;
 }
 
 
-.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th:nth-child(even) {
+.table-carbo table thead th:nth-child(even),
+.table-prottable thead th:nth-child(even),
+.table-vegetais table thead th:nth-child(even),
+.table-combinado table thead th:nth-child(even) {
 	background-color: #ccc;
 }
 
-.table-carbo, .table-prot, .table-vegetais, .table-combinado table thead th:nth-child(odd) {
+.table-carbo table thead th:nth-child(odd),
+.table-prot table thead th:nth-child(odd),
+.table-vegetais table thead th:nth-child(odd),
+.table-combinado table thead th:nth-child(odd) {
 	background-color: #777;
 }
 
@@ -2501,10 +2516,13 @@ padding-top: 20px;
 	background-color: #CC3300;
 }
 
+
 /** Vegetais ---------------------- */
 .table-vegetais table tbody > tr:nth-child(even) {
 	background-color: #009933;
 }
+
+
 
 .table-vegetais table tbody > tr:nth-child(odd) {
 	background-color: #003300;
