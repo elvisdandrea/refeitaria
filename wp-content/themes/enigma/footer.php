@@ -75,6 +75,7 @@
 		</div>		
 	</div>	
 </div>
+<?php /*
 <div class="enigma_footer_area">
 		<div class="container">
 			<div class="col-md-12">
@@ -103,7 +104,8 @@
 			<?php } ?>			
 			</div>		
 		</div>		
-</div>	
+</div>
+ */ ?>
 <!-- /Footer Widget Secton -->
 </div>
 <a href="#" title="Go Top" class="enigma_scrollup" style="display: inline;"><i class="fa fa-chevron-up"></i></a>
@@ -111,6 +113,6 @@
 <style type="text/css">
 <?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
 </style>
-<?php ?>
+<?php wp_footer(); ?>
 </body>
 </html>
