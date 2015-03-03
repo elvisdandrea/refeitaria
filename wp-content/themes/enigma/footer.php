@@ -4,37 +4,54 @@
 <div class="enigma_footer_widget_area">	
 	<div class="container">
 		<div class="row">
-			<?php 
+			<?php
+			/*
 			if ( is_active_sidebar( 'footer-widget-area' ) ){ 
 				dynamic_sidebar( 'footer-widget-area' );
 			} else 
 			{
-				/*
+
 			$args = array(
 			'before_widget' => '<div class="col-md-12 enigma_footer_widget_column">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<div class="enigma_footer_widget_title">',
 			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
 			the_widget('WP_Widget_Pages', null, $args);			
-			} */
+			}
+			*/
 ?>
-			<div class="col-md-12 enigma_footer_widget_column">
-				<div class="enigma_footer_widget_title">
+			<div class="col-md-12 enigma_footer_widget_column"><div class="enigma_footer_widget_title">Páginas<div class="enigma-footer-separator"></div></div>
+				<div>
 					<ul>
-						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title="">
-						<li class="page_item page-item-38 page_item_has_children" data-original-title="" title="">
-						<li class="page_item page-item-7" data-original-title="" title="">
+						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=32">Área de entrega</a>
+							<ul class="children">
+								<li class="page_item page-item-63" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=63">Caseira/Executiva</a></li>
+								<li class="page_item page-item-65" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=65">Fitness</a></li>
+							</ul>
+						</li>
+						<li class="page_item page-item-38 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=38">Como funciona?</a>
+							<ul class="children">
+								<li class="page_item page-item-52" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=52">Perguntas frequentes</a></li>
+								<li class="page_item page-item-55" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=55">Perguntas frequentes Fitness</a></li>
+							</ul>
+						</li>
 					</ul>
-				</div>
-				<div class="enigma_footer_widget_title">
+					</div>
+				<div>
 					<ul>
-						<li class="page_item page-item-61 current_page_item" data-original-title="" title="">
-						<li class="page_item page-item-116" data-original-title="" title="">
-						<li class="page_item page-item-29 page_item_has_children" data-original-title="" title="">
+						<li class="page_item page-item-7" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=7">Contato</a></li>
+						<li class="page_item page-item-61 current_page_item" data-original-title="" title=""><a href="http://refeitaria.com/">Inicio</a></li>
+						<li class="page_item page-item-116" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=116">Loja</a></li>
+						<li class="page_item page-item-29 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=29">Planos</a>
+							<ul class="children">
+								<li class="page_item page-item-40" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=40">Comida caseira</a></li>
+								<li class="page_item page-item-49" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=49">Fitness</a></li>
+								<li class="page_item page-item-44" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=44">Pratos executivos</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
-
 
 
 		</div>		
