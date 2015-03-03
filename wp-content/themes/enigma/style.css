@@ -2561,3 +2561,9 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	color: white;
 	text-align: center;
 }
+
+.footer-column {
+	display: inline-block;
+	float: left;
+	margin-left: 2.9em;
+}

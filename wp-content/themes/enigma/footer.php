@@ -21,7 +21,7 @@
 			*/
 ?>
 			<div class="col-md-12 enigma_footer_widget_column"><div class="enigma_footer_widget_title">Páginas<div class="enigma-footer-separator"></div></div>
-				<div>
+				<div class="footer-column">
 					<ul>
 						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=32">Área de entrega</a>
 							<ul class="children">
@@ -37,7 +37,7 @@
 						</li>
 					</ul>
 					</div>
-				<div>
+				<div class="footer-column">
 					<ul>
 						<li class="page_item page-item-7" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=7">Contato</a></li>
 						<li class="page_item page-item-61 current_page_item" data-original-title="" title=""><a href="http://refeitaria.com/">Inicio</a></li>
