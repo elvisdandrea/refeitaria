@@ -57,12 +57,10 @@
 				</div>
 				<div class="footer-column">
 					<a href="http://refeitaria.com/">Início</a>
-					<li class="page_item page-item-32 page_item_has_children" data-original-title="" title="">
 						<ul class="children">
 							<li class="page_item page-item-7" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=7">Contato</a></li>
 							<li class="page_item page-item-116" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=116">Loja</a></li>
 						</ul>
-					</li>
 				</div>
 			</div>
 
