@@ -2580,3 +2580,7 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+.footer-column > a:hover {
+	color: white;
+}
