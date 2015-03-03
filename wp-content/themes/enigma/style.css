@@ -1296,6 +1296,7 @@ margin-bottom:20px;
     line-height: 20px;
     margin-bottom: 2px;
     margin-top: -2px;
+	list-style-type: none !important;
 	
 }
 .enigma_recent_widget_post h3 a {
@@ -2566,4 +2567,8 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 	display: inline-block;
 	float: left;
 	margin-left: 2.9em;
+}
+
+.children {
+	margin-left: 3em;
 }
