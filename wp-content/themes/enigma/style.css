@@ -2584,3 +2584,8 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 .footer-column > a:hover {
 	color: white;
 }
+
+.fb-footer {
+	background-color: white;
+	float: right;
+}
