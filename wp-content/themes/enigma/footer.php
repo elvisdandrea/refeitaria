@@ -111,6 +111,6 @@
 <style type="text/css">
 <?php { echo esc_attr($wl_theme_options['custom_css']); } ?>
 </style>
-<?php wp_footer(); ?>
+<?php ?>
 </body>
 </html>
