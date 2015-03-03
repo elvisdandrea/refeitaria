@@ -8,14 +8,35 @@
 			if ( is_active_sidebar( 'footer-widget-area' ) ){ 
 				dynamic_sidebar( 'footer-widget-area' );
 			} else 
-			{ 
+			{
+				/*
 			$args = array(
-			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
+			'before_widget' => '<div class="col-md-12 enigma_footer_widget_column">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<div class="enigma_footer_widget_title">',
 			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
 			the_widget('WP_Widget_Pages', null, $args);			
-			} ?>
+			} */
+?>
+			<div class="col-md-12 enigma_footer_widget_column">
+				<div class="enigma_footer_widget_title">
+					<ul>
+						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title="">
+						<li class="page_item page-item-38 page_item_has_children" data-original-title="" title="">
+						<li class="page_item page-item-7" data-original-title="" title="">
+					</ul>
+				</div>
+				<div class="enigma_footer_widget_title">
+					<ul>
+						<li class="page_item page-item-61 current_page_item" data-original-title="" title="">
+						<li class="page_item page-item-116" data-original-title="" title="">
+						<li class="page_item page-item-29 page_item_has_children" data-original-title="" title="">
+					</ul>
+				</div>
+			</div>
+
+
+
 		</div>		
 	</div>	
 </div>
