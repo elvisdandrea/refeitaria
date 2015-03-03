@@ -1,4 +1,4 @@
-<div class="enigma_blog_area ">
+<!--<div class="enigma_blog_area ">-->
 <?php $wl_theme_options = weblizar_get_options();
 if($wl_theme_options['blog_title'] !='') { ?>
 	<?php /*

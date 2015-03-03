@@ -316,7 +316,7 @@ line-height: 26px;
 ********************************************************************************************************************************/
 .enigma_service {
 	padding-top:90px;
-	padding-bottom:90px;
+	padding-bottom:0px;
 	
 }
 .enigma_service_area{
