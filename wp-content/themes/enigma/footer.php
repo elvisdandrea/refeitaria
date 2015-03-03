@@ -22,8 +22,9 @@
 ?>
 			<div class="col-md-12 enigma_footer_widget_column">
 				<div class="footer-column">
+					<a href="http://refeitaria.com/?page_id=29">Planos</a>
 					<ul>
-						<li class="page_item page-item-29 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=29">Planos</a>
+						<li class="page_item page-item-29 page_item_has_children" data-original-title="" title="">
 							<ul class="children">
 								<li class="page_item page-item-40" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=40">Comida caseira</a></li>
 								<li class="page_item page-item-49" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=49">Fitness</a></li>
@@ -33,8 +34,9 @@
 					</ul>
 				</div>
 				<div class="footer-column">
+					<a href="http://refeitaria.com/?page_id=38">Como funciona?</a>
 					<ul>
-						<li class="page_item page-item-38 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=38">Como funciona?</a>
+						<li class="page_item page-item-38 page_item_has_children" data-original-title="" title="">
 							<ul class="children">
 								<li class="page_item page-item-52" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=52">Perguntas frequentes</a></li>
 								<li class="page_item page-item-55" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=55">Perguntas frequentes Fitness</a></li>
@@ -43,8 +45,9 @@
 					</ul>
 				</div>
 				<div class="footer-column">
+					<a href="http://refeitaria.com/?page_id=32">Área de entrega</a>
 					<ul>
-						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=32">Área de entrega</a>
+						<li class="page_item page-item-32 page_item_has_children" data-original-title="" title="">
 							<ul class="children">
 								<li class="page_item page-item-63" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=63">Caseira/Executiva</a></li>
 								<li class="page_item page-item-65" data-original-title="" title=""><a href="http://refeitaria.com/?page_id=65">Fitness</a></li>

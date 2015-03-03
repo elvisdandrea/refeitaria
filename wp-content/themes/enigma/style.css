@@ -2572,3 +2572,11 @@ div.table-carbo, div.table-prot, div.table-vegetais, div.table-combinado {
 .footer-column .children {
 	margin-left: 3em;
 }
+
+.footer-column > a {
+	color: white;
+	font-family: "Open Sans",sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
